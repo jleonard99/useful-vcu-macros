@@ -1,6 +1,7 @@
-\documentclass[11pt]{report}
+\documentclass[11pt]{article}
 
-\usepackage{vcubrief}
+\usepackage{fullpage}
+\usepackage[colorlinks=true]{hyperref}
 
 \author{John Leonard}
 \title{Getting Started}
@@ -29,8 +30,6 @@ At best, you'll be helping everyone get better at doing what we need to do.
 \tableofcontents
 
 \section{Verify tools and skills}
-
-\includegraphics[width=6.5in]{vcumasthead.png}
 
 \subsection{Get a Good Text Editor}
 
