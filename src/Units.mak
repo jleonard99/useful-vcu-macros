@@ -45,16 +45,52 @@ AR_longname = School of the Arts
 AR_unittype = college
 AR_parent = VCU
 
-depts := MNE CS
+depts := EGRB EGRC CMSC EGRE ENGR EGRM
+
+EGRB_shortname = Biomedical Engineering 
+EGRB_longname = Department of Biomedical Engineering
+EGRB_unittype = dept
+EGRB_parent = EG
+
+EGRC_shortname = Chemical and Life Science Engineering
+EGRC_longname = Department of Chemical and Life Science Engineering
+EGRC_unittype = dept
+EGRC_parent = EG
+
+CMSC_shortname = Computer Science
+CMSC_longname = Department of Computer Science
+CMSC_unittype = dept
+CMSC_parent = EG
+
+EGRE_shortname = Electrical and Computer Engineering
+EGRE_longname = Department of Electrical and Computer Engineering
+EGRE_unittype = dept
+EGRE_parent = EG
+
+ENGR_shortname = Engineering
+ENGR_longname = Office of the Dean of Engineering
+ENGR_unittype = dept
+ENGR_parent = EG
+
+EGRM_shortname = Mechanical and Nuclear Engineering
+EGRM_longname = Department of Mechanical and Nuclear Engineering
+EGRM_unittype = dept
+EGRM_parent = EG
+
+programs := MNE CS
 
 MNE_shortname = Mechanical and Nuclear
-MNE_longname = Department of Mechanical and Nuclear Engineering
-MNE_unittype = dept
+MNE_longname = Program in Mechanical and Nuclear Engineering
+MNE_unittype = program
 MNE_parent = EG
 
 CS_shortname = Computer Science
-CS_longname = Department of Computer Science
-CS_unittype = dept
+CS_longname = Program in Computer Science
+CS_unittype = program
 CS_parent = EG
 
 all.units := $(univs) $(colleges) $(depts)
+
+show-units.title := Show available units
+show-units:
+	$(foreach unit,depts colleges univs,@echo + $(unit): $($(unit))$(\n))
