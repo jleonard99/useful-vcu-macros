@@ -14,6 +14,8 @@ EG_shortname = Engineering
 EG_longname = School of Engineering
 EG_unittype = college
 EG_parent = VCU
+150_abbr = EG
+
 
 BU_shortname = Business
 BU_longname = School of Business
@@ -51,31 +53,39 @@ EGRB_shortname = Biomedical Engineering
 EGRB_longname = Department of Biomedical Engineering
 EGRB_unittype = dept
 EGRB_parent = EG
+1554_abbr = EGRB
+
 
 EGRC_shortname = Chemical and Life Science Engineering
 EGRC_longname = Department of Chemical and Life Science Engineering
 EGRC_unittype = dept
 EGRC_parent = EG
+1472_abbr = EGRC
 
 CMSC_shortname = Computer Science
 CMSC_longname = Department of Computer Science
 CMSC_unittype = dept
 CMSC_parent = EG
+1347_abbr = CMSC
+
 
 EGRE_shortname = Electrical and Computer Engineering
 EGRE_longname = Department of Electrical and Computer Engineering
 EGRE_unittype = dept
 EGRE_parent = EG
+1471_abbr = EGRE
 
 ENGR_shortname = Engineering
 ENGR_longname = Office of the Dean of Engineering
 ENGR_unittype = dept
 ENGR_parent = EG
+1470_abbr = ENGR
 
 EGRM_shortname = Mechanical and Nuclear Engineering
 EGRM_longname = Department of Mechanical and Nuclear Engineering
 EGRM_unittype = dept
 EGRM_parent = EG
+1473_abbr = EGRM
 
 programs := MNE CS
 
