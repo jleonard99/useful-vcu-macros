@@ -14,6 +14,7 @@ EG_shortname = Engineering
 EG_longname = School of Engineering
 EG_unittype = college
 EG_parent = VCU
+EG_abbr = 150
 150_abbr = EG
 150_longname = School of Engineering
 
