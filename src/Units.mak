@@ -14,12 +14,13 @@ EG_shortname = Engineering
 EG_longname = School of Engineering
 EG_unittype = college
 EG_parent = VCU
+EG_abbr = 150
 
-150_abbr = ENGR
 150_shortname = Engineering
 150_longname = School of Engineering
 150_unittype = college
 150_parent = VCU
+150_abbr = EG
 
 
 BU_shortname = Business
