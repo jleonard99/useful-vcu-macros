@@ -11,13 +11,13 @@ VCU_parent = VCU
 colleges := EG BU MD HS WS ED AR
 
 EG_shortname = Engineering
-EG_longname = School of Engineering
+EG_longname = College of Engineering
 EG_unittype = college
 EG_parent = VCU
 EG_abbr = 150
 
 150_shortname = Engineering
-150_longname = School of Engineering
+150_longname = College of Engineering
 150_unittype = college
 150_parent = VCU
 150_abbr = EG
