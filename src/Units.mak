@@ -99,6 +99,7 @@ MNE_shortname = Mechanical and Nuclear
 MNE_longname = Program in Mechanical and Nuclear Engineering
 MNE_unittype = program
 MNE_parent = EG
+MNE_parent_mbu = 150
 
 CS_shortname = Computer Science
 CS_longname = Program in Computer Science
