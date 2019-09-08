@@ -57,6 +57,7 @@ depts := EGRB EGRC CMSC EGRE ENGR EGRM
 
 EGRB_shortname = Biomedical Engineering 
 EGRB_longname = Department of Biomedical Engineering
+EGRB_nickname = BME
 EGRB_unittype = dept
 EGRB_parent = EG
 1554_abbr = EGRB
@@ -64,12 +65,14 @@ EGRB_parent = EG
 
 EGRC_shortname = Chemical and Life Science Engineering
 EGRC_longname = Department of Chemical and Life Science Engineering
+EGRC_nickname = CLSE
 EGRC_unittype = dept
 EGRC_parent = EG
 1472_abbr = EGRC
 
 CMSC_shortname = Computer Science
 CMSC_longname = Department of Computer Science
+CMSC_nickname = CS
 CMSC_unittype = dept
 CMSC_parent = EG
 1347_abbr = CMSC
@@ -77,18 +80,21 @@ CMSC_parent = EG
 
 EGRE_shortname = Electrical and Computer Engineering
 EGRE_longname = Department of Electrical and Computer Engineering
+EGRE_nickname = ECE
 EGRE_unittype = dept
 EGRE_parent = EG
 1471_abbr = EGRE
 
 ENGR_shortname = Engineering
 ENGR_longname = Office of the Dean of Engineering
+ENGR_nickname = COE
 ENGR_unittype = dept
 ENGR_parent = EG
 1470_abbr = ENGR
 
 EGRM_shortname = Mechanical and Nuclear Engineering
 EGRM_longname = Department of Mechanical and Nuclear Engineering
+EGRM_nickname = MNE
 EGRM_unittype = dept
 EGRM_parent = EG
 1473_abbr = EGRM
