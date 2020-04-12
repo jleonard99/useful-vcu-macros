@@ -15,7 +15,7 @@ $(foreach server,$(oracle.servers),$(eval $(server).CMD = sqlplus $($(server)_US
 $(foreach server,$(oracle.servers),$(eval $(server).CMD1 = sqlplus $($(server)_USER)@$(server).$($(server)_SID) ) )
 
 
-sqlserver.servers := EGRPROD
+sqlserver.servers := EGRPROD FMI8PROD
 $(foreach server,$(sqlserver.servers),$(eval $(server).CMD = sqlcmd -S $($(server)_SERVER) -d $($(server)_DB)))
 $(foreach server,$(sqlserver.servers),$(eval $(server).CMD1 = sqlcmd -S $($(server)_SERVER) -d $($(server)_DB)))
 
